@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h2 id="clock"></h2>
+  <form class = 'hidden' id = 'login-form'>
+    <input
+      required
+      maxlength="15"
+      type="text"
+      placeholder="What is your ID?";
+    />
+    <input type = 'submit' value = 'Log In' />
+  </form>
+  <h1 class = 'hidden' id="greeting"></h1>
+  <form id = 'changeBgForm'>
+    <input type = 'button' value = 'BGchange'/>
+  </form> 
+  <form id = 'todo-form'>
+    <input type = 'text' placeholder="Write a To Do and Press Enter" required />
+  </form>
+  <ul id = 'todo-list'></ul>
+
+  <div id = 'weather'>
+    <span></span>
+    <span></span>
+  </div>
+
+
+  <script src="grad.js"></script>
+</body>
+</html>
